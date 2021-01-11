@@ -21,18 +21,7 @@
                     <button class="btn">Appeler</button>
                 </div>
                 <div class="hidden" id="bien-form">
-                    <form action="" class="bien__form form-2column">
-                        <div class="form-group">
-                            <input type="text" id="username" class="form-control">
-                            <label for="username">Pseudo</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" id="email" class="form-control">
-                            <label for="email">Email</label>
-                        </div>
-                        <textarea placeholder="Message" class="form-control full"></textarea>
-                        <button type="submit" class="btn">Commenter</button>
-                    </form>
+                    <?= do_shortcode('[contact-form-7 id="117" title="" html_class="bien__form form-2column"]'); ?>
                 </div>
             </div>
             <div>
